@@ -16,23 +16,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Soyunshin's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "신소윤"
+description              : "Data Science 공부 블로그"
+url                      : "https://soyunshin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title           : "Soyunshin's Blog" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "soyunshin-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -94,52 +94,55 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "신소윤"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "데이터 분석을 공부하고 있습니다."
+  #location         : "Somewhere"
+  email            : "soyun326@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: mailto:soyun326@naver.com
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   # url: "https://your-website.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/soyunshin"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:soyun326@naver.com
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url:
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url:
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   # url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   # url:
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 
 # Reading Files
@@ -210,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -277,6 +280,16 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
+
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+

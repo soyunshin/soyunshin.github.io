@@ -98,7 +98,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "데이터 분석을 공부하고 있습니다."
   #location         : "Somewhere"
-  email            : "soyun326@naver.com"
+  #email            : "soyun326@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

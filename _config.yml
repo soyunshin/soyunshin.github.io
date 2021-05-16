@@ -290,6 +290,6 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: single 
       author_profile: true
 

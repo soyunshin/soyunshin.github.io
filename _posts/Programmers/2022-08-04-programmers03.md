@@ -1,5 +1,4 @@
 ---
-published: true
 title:  "[Programmers] 모의고사"
 excerpt: "코딩테스트 연습-완전탐색"
 

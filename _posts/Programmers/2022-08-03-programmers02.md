@@ -1,5 +1,4 @@
 ---
-published: true
 title:  "[Programmers] 최대공약수와 최소공배수"
 excerpt: "코딩테스트 연습"
 

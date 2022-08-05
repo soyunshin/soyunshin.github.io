@@ -1,5 +1,4 @@
 ---
-published: true
 title:  "[Programmers] 소수 만들기"
 excerpt: "코딩테스트 연습"
 

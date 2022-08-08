@@ -20,7 +20,7 @@ title                    : "Soyunshin's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "soyun shin"
-description              : "Data Science 공부 블로그"
+description              : "Studying Data Science"
 url                      : "https://soyunshin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "soyunshin/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "soyun shin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "데이터 분석, 딥러닝 공부 중"
+  bio              : "Junior Data Scientist"
   #location         : "Somewhere"
   #email            : "soyun326@naver.com"
   links:

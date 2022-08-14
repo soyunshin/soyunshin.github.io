@@ -1,6 +1,6 @@
 ---
 title:  "[Programmers] 숫자 문자열과 영단어"
-excerpt: "코딩테스트 연습" :star:
+excerpt: "코딩테스트 연습 : :star:"
 
 categories:
   - Coding Test

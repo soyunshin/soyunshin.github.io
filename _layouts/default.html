@@ -12,6 +12,11 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+
     <!-- 0806 font 추가 -->
     <!-- Noto Sans KR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

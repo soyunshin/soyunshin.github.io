@@ -1,6 +1,6 @@
 ---
 title:  "[Programmers] 가장 큰 수"
-excerpt: "코딩테스트 연습 : :star: "
+excerpt: "코딩테스트 연습 : :star: :star:  "
 
 categories:
   - Coding Test
